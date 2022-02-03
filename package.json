@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "prebuild": "test \"$CI\" = true && npx pnpm install -r --store=node_modules/.pnpm-store || echo skipping pnpm install",
+      "build": "npm run --prefix documentation build"
+    }
+  }
