@@ -1,6 +1,7 @@
 import { mdsvex } from "mdsvex";
 import mdsvexConfig from "./mdsvex.config.js";
-import adapter from '@sveltejs/adapter-netlify'
+// import adapter from '@sveltejs/adapter-netlify'
+import adapter from '@sveltejs/adapter-static';
 
 const config = {
 	kit: {
